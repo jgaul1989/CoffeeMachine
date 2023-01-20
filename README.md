@@ -1,8 +1,62 @@
-This is the *Coffee Machine* project I made myself.
+<h1> Simple Coffee Machine Simulation </h1>
 
+Write action (buy, fill, take, remaining, exit):
+> remaining
 
-<p>What can be better than a cup of coffee during a break? A coffee that you don’t have to make yourself. It’s enough to press a couple of buttons on the machine and you get a cup of energy; but first, we should teach the machine how to do it. In this project, you will work on programming a coffee machine simulator. The machine works with typical products: coffee, milk, sugar, and plastic cups; if it runs out of something, it shows a notification. You can get three types of coffee: espresso, cappuccino and latte. Since nothing’s for free, it also collects the money.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/33?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/33</a>
+The coffee machine has:
 
-Here's the link to the project: https://hyperskill.org/projects/33
+1050 ml of water
 
-Check out my profile: https://hyperskill.org/profile/343917524
+465 ml of milk
+
+100 g of coffee beans
+
+8 disposable cups
+
+$557 of money
+
+Write action (buy, fill, take, remaining, exit):
+> buy
+
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
+> 2
+
+I have enough resources, making you a coffee!
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+
+700 ml of water
+
+390 ml of milk
+
+80 g of coffee beans
+
+7 disposable cups
+
+$564 of money
+
+Write action (buy, fill, take, remaining, exit):
+> take
+
+I gave you $564
+
+Write action (buy, fill, take, remaining, exit):
+> remaining
+
+The coffee machine has:
+
+700 ml of water
+
+390 ml of milk
+
+80 g of coffee beans
+
+7 disposable cups
+
+$0 of money
+
+Write action (buy, fill, take, remaining, exit):
+> exit
